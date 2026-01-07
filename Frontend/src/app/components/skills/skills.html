@@ -1,0 +1,11 @@
+<section class="skills" *ngIf="data.length">
+    <h3>Habilidades</h3>
+    <div class="skills-grid">
+        <div class="skill-category" *ngFor="let category of data">
+            <h4>{{ category.categoryName }}</h4>
+            <div class="chips">
+                <span class="chip" *ngFor="let item of category.items">{{ item }}</span>
+            </div>
+        </div>
+    </div>
+</section>

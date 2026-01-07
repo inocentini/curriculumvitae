@@ -1,0 +1,12 @@
+<footer class="contact" *ngIf="data">
+    <div class="divider"></div>
+    <h3>Entre em contato</h3>
+    <div class="links">
+        <a [href]="'mailto:' + data.email" class="primary-btn">Enviar Email</a>
+        <a [href]="data.linkedIn" target="_blank">LinkedIn</a>
+        <a [href]="data.gitHub" target="_blank">GitHub</a>
+    </div>
+    <p class="copyright">
+        © {{ currentYear }} {{ data.name }}. Criado com .NET 9 e Angular 19.
+    </p>
+</footer>

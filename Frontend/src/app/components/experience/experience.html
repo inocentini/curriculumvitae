@@ -1,0 +1,16 @@
+<section class="experience" *ngIf="data.length">
+    <h3>Experiência Profissional</h3>
+    <div class="timeline">
+        <div class="timeline-item" *ngFor="let item of data">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">{{ item.period }}</div>
+            <div class="timeline-content">
+                <h4>{{ item.role }}</h4>
+                <div class="company">{{ item.company }} · <span class="location">{{ item.location }}</span></div>
+                <ul>
+                    <li *ngFor="let point of item.descriptionPoints">{{ point }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

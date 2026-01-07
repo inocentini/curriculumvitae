@@ -1,0 +1,10 @@
+<section class="education" *ngIf="data.length">
+    <h3>Formação Acadêmica</h3>
+    <div class="grid">
+        <div class="card" *ngFor="let item of data">
+            <div class="period">{{ item.period }}</div>
+            <h4>{{ item.degree }}</h4>
+            <div class="institution">{{ item.institution }}</div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,17 @@
+<section class="hero" *ngIf="data">
+    <div class="content">
+        <h1>{{ data.name }}</h1>
+        <h2>{{ data.title }}</h2>
+        <div class="contact-info">
+            <a [href]="'tel:' + data.phone">{{ data.phone }}</a>
+            <a [href]="'mailto:' + data.email">{{ data.email }}</a>
+            <a [href]="data.linkedIn" target="_blank">LinkedIn</a>
+            <a [href]="data.gitHub" target="_blank">GitHub</a>
+        </div>
+        <div class="location">{{ data.location }}</div>
+    </div>
+    <div class="image-container">
+        <div class="blob"></div>
+        <img src="profile.jpg" alt="Profile Photo">
+    </div>
+</section>

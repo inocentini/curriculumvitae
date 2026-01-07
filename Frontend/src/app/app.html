@@ -1,0 +1,11 @@
+<div *ngIf="resumeData" class="cv-container">
+  <app-hero [data]="resumeData.personalInfo"></app-hero>
+  <app-about [data]="resumeData.personalInfo"></app-about>
+  <app-experience [data]="resumeData.experiences"></app-experience>
+  <app-skills [data]="resumeData.skills"></app-skills>
+  <app-education [data]="resumeData.education"></app-education>
+  <app-contact [data]="resumeData.personalInfo"></app-contact>
+</div>
+<div *ngIf="!resumeData" class="loading">
+  Loading...
+</div>
