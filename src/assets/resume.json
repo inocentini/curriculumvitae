@@ -1,7 +1,7 @@
 {
     "personalInfo": {
         "name": "Mateus Felipe Inocentini",
-        "title": "Engenheiro de Software · Especialista em Automação/RPA",
+        "title": "Engenheiro de Software",
         "location": "Ribeirão Preto/SP – Brasil",
         "phone": "+55 (16) 99233-3137",
         "email": "mateus.inocentini@gmail.com",
@@ -12,12 +12,25 @@
     },
     "experiences": [
         {
-            "role": "Analista de Sistemas Sênior",
+            "role": "Arquiteto de Software",
             "company": "Telefônica Brasil (Vivo)",
-            "period": "fev de 2022 – atual",
+            "period": "set de 2025 – atual",
             "location": "São Paulo/SP, Brasil",
             "descriptionPoints": [
-                "Atuação em suporte N3 de automações em produção, desenvolvendo correções, melhorias e novas funcionalidades.",
+                "Desenho de soluções e apoio técnico para fornecedores e fábricas de squads de desenvolvimento.",
+                "Governança do framework de desenvolvimento e definição de novos padrões técnicos.",
+                "Habilitação e integração de novas tecnologias ao framework do time.",
+                "Configuração de ambientes de desenvolvimento e homologação.",
+                "Configuração e manutenção de pipelines de CI/CD."
+            ]
+        },
+        {
+            "role": "Analista de Sistemas Sênior",
+            "company": "Telefônica Brasil (Vivo)",
+            "period": "fev de 2022 – ago de 2025",
+            "location": "São Paulo/SP, Brasil",
+            "descriptionPoints": [
+                "Atuação no time de Sustentação PCP com suporte N3 de automações em produção, desenvolvendo correções, melhorias e novas funcionalidades.",
                 "Participação e liderança em comitês de avaliação técnica para padronização de projetos e desenvolvimento de robôs.",
                 "Implementação de mudanças em produção (GMUD), seguindo processos de governança e gestão de risco.",
                 "Tratativa de chamados de suporte, monitoramento de alarmes e atuação em regime de plantão (on-call).",
