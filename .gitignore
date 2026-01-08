@@ -3,6 +3,9 @@ node_modules/
 .pnp
 .pnp.js
 
+# Angular cache
+.angular/
+
 # Testing
 coverage
 
@@ -24,9 +27,4 @@ yarn-error.log*
 # Editor
 .vscode/
 .idea/
-
-# .NET
-Backend/CV.API/bin/
-Backend/CV.API/obj/
-.vs/
 *.user
