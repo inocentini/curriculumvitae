@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npx ng build --config=production --base-href "/"
+        run: npx ng build --config=production --base-href "/curriculumvitae/"
 
       - name: Copy index.html to 404.html for SPA routing
         run: cp dist/cv-app/browser/index.html dist/cv-app/browser/404.html
