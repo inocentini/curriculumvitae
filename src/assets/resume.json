@@ -1,0 +1,140 @@
+{
+    "personalInfo": {
+        "name": "Mateus Felipe Inocentini",
+        "title": "Engenheiro de Software · Especialista em Automação/RPA",
+        "location": "Ribeirão Preto/SP – Brasil",
+        "phone": "+55 (16) 99233-3137",
+        "email": "mateus.inocentini@gmail.com",
+        "linkedIn": "https://www.linkedin.com/in/mateus-inocentini-6029a2126",
+        "gitHub": "https://github.com/inocentini",
+        "photoUrl": "assets/profile.jpg",
+        "summary": "Profissional com mais de 6 anos de experiência em desenvolvimento de software e automação RPA, com foco em tecnologias .NET. Atuação em sustentação de produção, desenvolvimento de correções e melhorias, criação de robôs e scripts, sempre seguindo boas práticas de engenharia de software, padrões de projeto e alto padrão de qualidade. Experiência em ambientes de missão crítica, plantão (on-call) e participação em comitês técnicos, contribuindo para padronização, governança e evolução de soluções."
+    },
+    "experiences": [
+        {
+            "role": "Analista de Sistemas Sênior",
+            "company": "Telefônica Brasil (Vivo)",
+            "period": "fev de 2022 – atual",
+            "location": "São Paulo/SP, Brasil",
+            "descriptionPoints": [
+                "Atuação em suporte N3 de automações em produção, desenvolvendo correções, melhorias e novas funcionalidades.",
+                "Participação e liderança em comitês de avaliação técnica para padronização de projetos e desenvolvimento de robôs.",
+                "Implementação de mudanças em produção (GMUD), seguindo processos de governança e gestão de risco.",
+                "Tratativa de chamados de suporte, monitoramento de alarmes e atuação em regime de plantão (on-call).",
+                "Desenvolvimento de aplicação web para gestão de ambientes de produção e inventário de VMs, trazendo maior visibilidade operacional."
+            ]
+        },
+        {
+            "role": "Líder de Equipe de Suporte (N2/N3)",
+            "company": "end-to-end Technology",
+            "period": "out de 2018 – fev de 2022",
+            "location": "",
+            "descriptionPoints": [
+                "Desenvolvimento de RPAs e automações de scripts utilizando PowerShell, Batch, VBS e .NET.",
+                "Liderança de equipe de suporte N2 e N3, acompanhamento de desempenho e priorização de demandas.",
+                "Suporte a incidentes críticos, análise de causa raiz e implementação de melhorias contínuas."
+            ]
+        },
+        {
+            "role": "Estagiário de TI",
+            "company": "Instituto Federal de São Paulo (IFSP – Campus São Carlos)",
+            "period": "ago de 2017 – fev de 2018",
+            "location": "São Carlos/SP, Brasil",
+            "descriptionPoints": [
+                "Desenvolvimento e manutenção de páginas do site institucional.",
+                "Suporte em TI: instalações, manutenção de equipamentos e apoio em salas de aula.",
+                "Registro e encaminhamento de demandas de informática à Coordenadoria de Tecnologia da Informação."
+            ]
+        },
+        {
+            "role": "Operador de Caixa",
+            "company": "Inbrands S.A.",
+            "period": "dez de 2015 – jun de 2016",
+            "location": "",
+            "descriptionPoints": [
+                "Responsável por rotinas administrativas e de caixa, emissão de notas fiscais e controles financeiros.",
+                "Atendimento ao público, organização de estoque e apoio às vendas."
+            ]
+        },
+        {
+            "role": "Auxiliar Administrativo",
+            "company": "Sercont Serviços Contábeis S.A.",
+            "period": "jan de 2011 – dez de 2014",
+            "location": "",
+            "descriptionPoints": [
+                "Elaboração de minutas contratuais e processos de abertura, alteração e encerramento de empresas.",
+                "Atuação em legalização de pessoas físicas e jurídicas junto a órgãos municipais e federais.",
+                "Alimentação de planilhas e sistemas, organização de arquivos e suporte administrativo geral."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "FIAP",
+            "degree": "Pós-graduação em Arquitetura de Software",
+            "period": "mar de 2025 – jan de 2026 (em andamento)"
+        },
+        {
+            "institution": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo – IFSP",
+            "degree": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+            "period": "jun de 2016 – jan de 2021"
+        }
+    ],
+    "skills": [
+        {
+            "categoryName": "Linguagens e Frameworks",
+            "items": [
+                "C#",
+                ".NET",
+                "Blazor",
+                "PowerShell",
+                "Batch",
+                "VBScript",
+                "Angular",
+                "Blazor",
+                "Entity Framework"
+            ]
+        },
+        {
+            "categoryName": "RPA",
+            "items": [
+                "Automation Anywhere",
+                "UiPath",
+                "NICE"
+            ]
+        },
+        {
+            "categoryName": "Dados",
+            "items": [
+                "SQL Server",
+                "MongoDB",
+                "MySQL",
+                "Oracle"
+            ]
+        },
+        {
+            "categoryName": "Outros",
+            "items": [
+                "Git",
+                "Linux",
+                "Windows",
+                "Governança"
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Lean Six Sigma – Yellow Belt"
+        }
+    ],
+    "languages": [
+        {
+            "name": "Português",
+            "level": "Nativo"
+        },
+        {
+            "name": "Inglês",
+            "level": "Intermediário"
+        }
+    ]
+}

@@ -25,13 +25,16 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: Frontend/cv-app/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install Dependencies
-        run: cd Frontend/cv-app && npm ci
+        run: npm ci
 
       - name: Build
-        run: cd Frontend/cv-app && npx ng build --base-href "/"
+        run: npx ng build --config=production --base-href "/"
+
+      - name: Copy index.html to 404.html for SPA routing
+        run: cp dist/cv-app/browser/index.html dist/cv-app/browser/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -39,8 +42,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'Frontend/dist/cv-app/browser'
+          path: 'dist/cv-app/browser'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
